@@ -1,5 +1,5 @@
 function [dudt] = ddtFiniteVolume3 (t, u)
-%DDTFINITEVOLUME Summary of this function goes here
+%DDTFINITEVOLUME Godunov's Method - FVM for nonlinear system
 %Detailed explanation goes here
 	N = length(u) ;
 	x = linspace(0,1,N+1) ;
